@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+body {
+  background: linear-gradient(
+    rgba(0, 0, 255, 0.417),
+    rgba(255, 192, 203, 0.502)
+  );
+  min-height: 80em;
+}
+body::before {
+  content: "";
+  background-color: rgb(173, 151, 151);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+}
+.container {
+  padding: 30px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 43px;
+  text-shadow: 0px 0px 100px rgb(228, 34, 66);
+  font-style: italic;
+}
+.container p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-style: oblique;
+  text-shadow: 0px 0px 30px rgb(192, 224, 32);
+}
+.all {
+  position: relative;
+}
+.all h2 {
+  top: -10px;
+  position: absolute;
+  left: 530px;
+}
+.all {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px;
+  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* margin-left: -10px; */
+}
+
+.list-1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.list-1 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.list-1 {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.all img {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  /* margin-left: 100px; */
+}
+
+figcaption {
+  font-size: 20px;
+}
+
+.list-2 {
+  margin-top: 50px;
+}
+.list-3 {
+  margin-top: 50px;
+}
+.list-1 {
+  margin-top: 50px;
+}
+.gun {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px;
+  gap: 17rem;
+  margin-top: 140px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -150px;
+}
+.gun h2 {
+  position: absolute;
+  top: -110px;
+  font-size: 28px;
+  left: 700px;
+}
+.gun-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.gun-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: -24px;
+}
+.gun-3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-left: -40px;
+}
+.gun img {
+  width: 300px;
+  border-radius: 20px;
+  height: 200px;
+}
+.gun-3 img {
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  height: 350px;
+  margin-left: 100px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  gap: 5rem;
+  width: 100%;
+  padding: 40px;
+}
+.foot {
+  margin-left: 150px;
+  margin-top: 140px;
+}
+
+footer {
+  position: absolute;
+  top: 1040px;
+  left: -100px;
+  color: white;
+}
+footer li:hover {
+  color: bisque;
+  transition: 1.2s;
+  transform: scale(1.1);
+}
+.i-1 {
+  color: black;
+}
+i:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.list-1:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.list-2:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.list-3:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.gun-1:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.gun-2:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.gun-3:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+}
+.list-1 {
+  background-image: url(https://i.pinimg.com/474x/df/a7/db/dfa7dba2bee0dde169ad4a433ecc4779.jpg);
+}
+.list-1 {
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  margin-top: 31px;
+}
+.list-1:hover {
+  background-image: url(https://i.pinimg.com/474x/63/36/4f/63364f95fbbf52f5909d011da6052080.jpg);
+  transition: 1.5s;
+}
+.list-2 {
+  background-image: url(https://i.pinimg.com/474x/e7/1f/c2/e71fc2f6cded6da4506fdda07c17692c.jpg);
+}
+.list-2:hover {
+  background-image: url(https://i.pinimg.com/474x/a9/b1/23/a9b12331e2bdc5850c3bfe3a941e9f43.jpg);
+  transition: 1.6s;
+  z-index: 1;
+}
+.list-2 {
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  margin-top: 31px;
+}
+.list-3 {
+  background-image: url(https://i.pinimg.com/474x/df/2c/1c/df2c1c07a96bc01ac3719458bc7d22c1.jpg);
+}
+.list-3 {
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  margin-top: 31px;
+}
+.list-3:hover {
+  background-image: url(https://i.pinimg.com/474x/a0/16/c4/a016c4936307e2cda0c8a917b92748ef.jpg);
+  transition: 1.5s;
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 28px;
+  }
+  .all,
+  .gun {
+    flex-direction: column;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+
+  .all img,
+  .gun img {
+    width: 100%;
+    height: auto;
+  }
+  .gun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gun h2 {
+    margin-left: -430px;
+  }
+  .gun img {
+    width: 300px;
+    margin-left: 150px;
+  }
+
+  .gun-1 {
+    margin-top: -60px;
+  }
+  .gun-2 {
+    margin-top: -140px;
+  }
+  .gun-3 {
+    margin-top: -180px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1000px;
+    height: auto;
+    padding: 20px;
+    gap: 1rem;
+    margin-top: 100rem;
+  }
+}

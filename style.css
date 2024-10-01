@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  height: 100rem;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+.container-1 {
+  display: flex;
+  text-align: center;
+}
+header {
+  margin: 0;
+  width: 100%;
+  height: 75px;
+}
+.photo-1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+.head-2 {
+  display: flex;
+  gap: 6rem;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+.head-1 {
+  display: flex;
+  gap: 2rem;
+  margin-left: 40px;
+  color: aliceblue;
+}
+.head-1 h2 {
+  border-left: 2px solid;
+  padding-left: 10px;
+  margin-left: -12px;
+  margin-top: 15px;
+  width: 210px;
+}
+.head-2 h4 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+header {
+  background-color: black;
+}
+.head-3 button {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 150px;
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid white;
+}
+.head-3 button a {
+  text-decoration: none;
+  color: white;
+}
+.head-2 h4:hover {
+  text-decoration: underline;
+}
+
+.head-3 button:hover {
+  background-color: rgb(250, 248, 248);
+  color: black;
+  transition: 1.2s;
+}
+
+.photo-2 {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.head-4 {
+  display: flex;
+}
+.head-4 h3 a {
+  color: aliceblue;
+
+  text-decoration: none;
+}
+.head-4 .sign:hover {
+  color: bisque;
+  transition: 1.3s;
+}
+
+.head-4 h3:hover {
+  transition: 1.3s;
+  transform: scale(1.1);
+}
+.head-2 .h4 a:hover {
+  color: bisque;
+}
+.sign-up {
+  margin-top: 18px;
+}
+.head-2 .h4:hover {
+  transition: 1.4s;
+  transform: scale(1.1);
+}
+.container-1 {
+  position: relative;
+}
+
+.img-1 {
+  position: absolute;
+  width: 120px;
+
+  top: 100px;
+  left: 80px;
+}
+.img-2 {
+  position: absolute;
+  width: 120px;
+
+  top: 90px;
+  left: 220px;
+}
+.list-2 {
+  position: absolute;
+  top: 240px;
+}
+.list-2 h1 {
+  color: rgb(255, 255, 255);
+  margin-left: 70px;
+  font-size: 42px;
+  font-weight: bold;
+}
+.list-2 p {
+  color: aliceblue;
+  margin-left: 70px;
+  font-size: 23px;
+  font-weight: 700;
+  font-style: oblique;
+  margin-top: 10px;
+}
+.list-4 button {
+  padding: 20px;
+  position: absolute;
+  top: 440px;
+  left: 25px;
+}
+.btn-1 {
+  width: 200px;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+  border: 1px solid white;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.btn-2 {
+  width: 150px;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+  border: 1px solid white;
+  margin-left: 270px;
+  margin-top: 29px;
+}
+.btn-1:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 1.4s;
+}
+.btn-2:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 1.4s;
+}
+.img-3 {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+.container-2 {
+  position: relative;
+}
+.img-4 {
+  position: absolute;
+  left: 350px;
+}
+.img-3 {
+  margin-top: 50px;
+}
+.list-5 {
+  color: aliceblue;
+  margin-top: 140px;
+  width: 550px;
+  margin-left: 300px;
+}
+.list-5 h1 {
+  font-size: 42px;
+  font-weight: 900;
+  font-style: oblique;
+  text-align: center;
+  margin-left: 30px;
+}
+.list-5 .p-1 {
+  font-size: 18px;
+  margin-left: 50px;
+  height: 120px;
+}
+.list-5 .p-2 {
+  margin-top: 60px;
+  font-size: 18px;
+  margin-left: 50px;
+  height: 120px;
+}
+.list-3 {
+  margin-top: 10px;
+}
+.list-6-img {
+  left: 100px;
+  position: absolute;
+  width: 1000px;
+}
+.list-6 {
+  position: relative;
+}
+.icon-1 {
+  position: absolute;
+  top: 800px;
+  left: 335px;
+}
+.list-7 {
+  position: relative;
+  width: 500px;
+}
+.list-7 {
+  color: white;
+  position: absolute;
+  top: 3250px;
+  margin-left: 280px;
+}
+
+.list-7 h1 {
+  font-size: 42px;
+  font-weight: 900;
+  font-style: oblique;
+  text-align: center;
+  margin-left: -200px;
+  width: 1000px;
+}
+.list-7 .li-1 {
+  font-size: 18px;
+  margin-left: 50px;
+  height: 50px;
+}
+.list-7 .li-2 {
+  margin-top: 67px;
+  font-size: 18px;
+  margin-left: 50px;
+  height: 120px;
+}
+footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  height: 350px;
+  margin-left: 100px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  gap: 5rem;
+}
+.foot {
+  margin-left: 100px;
+  margin-top: 140px;
+}
+
+footer {
+  position: absolute;
+  top: 3700px;
+
+  color: white;
+}
+footer li:hover {
+  color: bisque;
+  transition: 1.2s;
+  transform: scale(1.1);
+}
+@media (max-width: 430px) {
+  .list-1 .uou {
+    width: 900px;
+  }
+  body {
+    font-size: 30px;
+  }
+  header {
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+  .container-1 {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  .head-1 h2 {
+    width: auto;
+    margin: 0;
+    padding-left: 0;
+  }
+  .photo-1 {
+    width: 40px;
+    height: 40px;
+  }
+  .head-2 {
+    flex-direction: row;
+    gap: 2em;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .head-3 button {
+    width: 80px;
+    height: 25px;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .list-2 h1 {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  .list-2 p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .btn-1,
+  .btn-2 {
+    width: 150px;
+    font-size: 12px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .img-1,
+  .img-2 {
+    width: 80px;
+    top: 50px;
+    left: 50px;
+  }
+  .img-3 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .list-5 {
+    width: 100%;
+    margin-left: 0;
+  }
+  footer {
+    flex-direction: row;
+    margin-left: 0;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .sign-up {
+    font-size: 20px;
+  }
+  .foot {
+    margin-top: -50px;
+  }
+  .list-6-img {
+    width: 430px;
+    height: 430px;
+  }
+  .list-7 {
+    margin-top: -800px;
+    left: -140px;
+  }
+  .icon-1 {
+    margin-top: -600px;
+  }
+  footer {
+    margin-top: -700px;
+    display: flex;
+    gap: -25rem;
+  }
+  .foot {
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+}

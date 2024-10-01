@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.768), rgba(255, 255, 0, 0.43));
+  color: wheat;
+  padding: 2em;
+}
+
+body::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 13px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  color: rgb(44, 94, 210);
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.container {
+  margin: 5em auto;
+  max-width: 34.15em;
+}
+
+.checkpoint {
+  max-width: 34em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.checkpoint .div {
+  border: 2px solid #888;
+  border-radius: 20px;
+  padding: 1.5em;
+}
+
+.checkpoint p {
+  color: rgb(182, 177, 177);
+  line-height: 20px;
+}
+
+.checkpoint:nth-child(even) {
+  border-right: 3px solid #888;
+  padding-right: 3em;
+  transform: translateX(-271px);
+}
+
+.checkpoint:nth-child(odd) {
+  border-left: 3px solid #888;
+  padding-left: 3em;
+  transform: translateX(17em);
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before {
+  content: "";
+  background: #888;
+  width: 3em;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before {
+  left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+  right: 0;
+}
+
+.back {
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .container {
+    margin: 3em auto;
+    max-width: 90%;
+    padding: 0 1em;
+  }
+
+  .checkpoint {
+    max-width: 100%;
+    padding: 1em 0.5em;
+  }
+
+  .checkpoint:nth-child(odd) {
+    transform: none;
+    /* bunu koigan sebebim bul barin ortaga alyp keledi */
+    border-left: none;
+    padding-left: 1em;
+  }
+
+  .checkpoint:nth-child(even) {
+    transform: none;
+    border-right: none;
+    padding-right: 1em;
+    margin-left: 10px;
+  }
+
+  .checkpoint:nth-child(odd)::before,
+  .checkpoint:nth-child(even)::before {
+    display: none;
+  }
+
+  /* Adjust font size */
+  .title p {
+    font-size: 16px;
+  }
+
+  .checkpoint p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+}
